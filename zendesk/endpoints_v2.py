@@ -163,6 +163,10 @@ mapping_table = {
         'path': '/users/{{user_id}}.json',
         'method': 'PUT',
     },
+    'merge_user': {
+        'path': '/users/{{user_id}}/merge.json',
+        'method': 'PUT',
+    },
     'delete_user': {
         'path': '/users/{{user_id}}.json',
         'method': 'DELETE',
